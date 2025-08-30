@@ -20,14 +20,14 @@
 </head>
 
 <body>
-    <nav id="Home" class="navbar navbar-expand-lg navbar-dark bg-primary px-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary px-5">
         <div class="container-fluid">
 
-            <a class="navbar-brand" href="#">FARHAT HUSSAIN</a> <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="#">FARHAT HUSSAIN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
@@ -49,13 +49,13 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="#contactme">Contact</a>
                     </li>
-
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section>
+
+    <section id="Home">
         <div class="container mt-5 border rounded-3 text-center shadow-lg bg-body">
             <div class="row p-4 pe-lg-0 pt-lg-5 align-items-start shadow-lg">
                 <div class="col-md-8 p-3 p-lg-5 pt-lg-3 lh-2">
@@ -66,8 +66,8 @@
                     <br>
                     <br>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-4 mb-lg-3">
-                        <button type="button" class="btn btn-primary">Hire Me</button>
-                        <button type="button" class="btn btn-outline-primary">Contact</button>
+                        <a href="#contactme" type="button" class="btn btn-primary">Hire Me</a>
+                        <a href="#contactme" type="button" class="btn btn-outline-primary">Contact</a>
                     </div>
                 </div>
                 <div class="col-md-4 align-items-center">
@@ -119,13 +119,13 @@
 
     <div id="Service">
         <div class="card m-5">
-            <div class="card-body">
+            <div class="card-body rounded-3">
                 <h2 class="card-title">Service</h2>
                 <hr class="w-100 border-2 border-primary opacity-100">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
 
-                    <div class="col text-center shadow-lg">
-                        <div class="card h-100">
+                    <div class="col text-center">
+                        <div class="card h-100 shadow-lg rounded-3">
                             <span class="m-3">
                                 <img class="h-20 w-20" src="icon/computer (1).png" alt="">
                             </span>
@@ -135,8 +135,8 @@
                         </div>
                     </div>
 
-                    <div class="col text-center shadow-lg">
-                        <div class="card h-100">
+                    <div class="col text-center">
+                        <div class="card h-100 shadow-lg rounded-3">
                             <span class="m-3">
                                 <img class="h-20 w-20" src="icon/web.png" alt="">
                             </span>
@@ -147,8 +147,8 @@
                         </div>
                     </div>
 
-                    <div class="col text-center shadow-lg">
-                        <div class="card h-100">
+                    <div class="col text-center">
+                        <div class="card h-100 shadow-lg rounded-3">
                             <span class="m-3">
                                 <img class="h-20 w-20" src="icon/front-end-programming.png" alt="">
                             </span>
@@ -168,7 +168,7 @@
     <div id="Skills">
 
         <div class="card m-5">
-            <div class="card-body">
+            <div class="card-body rounded-3">
                 <h2 class="card-title">Skills</h2>
                 <hr class="w-100 border-2 border-primary opacity-100">
 
@@ -207,82 +207,102 @@
     </div>
 
     <div id="Portfolio">
+    <div class="card m-5">
+        <div class="card-body rounded-3">
+            <h2 class="card-title">Portfolio</h2>
+            <hr class="w-100 border-2 border-primary opacity-100">
 
-        <div class="card m-5">
-            <div class="card-body">
-                <h2 class="card-title">Portfolio</h2>
-                <hr class="w-100 border-2 border-primary opacity-100">
-                <h3>Desktop Application</h3>
+            <h3>Frontend Projects</h3>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
 
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-
-                    <div class="col shadow-lg">
-                        <div class="card h-100">
-                            <img src="projects/WaterManagementSystem.jpeg" class="card-img-top" alt="...">
-                            <div class="card-footer text-center">
-                                <h5>Water Management System</h5>
-                            </div>
+                <div class="col">
+                    <div class="card h-100 shadow-lg">
+                        <img src="projects/pixstock.jpeg" 
+                             class="card-img-top w-100 object-fit-cover" 
+                             style="height:200px;" alt="...">
+                        <div class="card-footer text-center">
+                            <h5>PixStock Website</h5>
                         </div>
                     </div>
-
-                    <div class="col shadow-lg">
-                        <div class="card h-100">
-                            <img src="projects/WaterManagementSystem.jpeg" class="card-img-top" alt="...">
-                            <div class="card-footer text-center">
-                                <h5>Water Management System</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg">
-                        <div class="card h-100">
-                            <img src="projects/WaterManagementSystem.jpeg" class="card-img-top" alt="...">
-                            <div class="card-footer text-center">
-                                <h5>Water Management System</h5>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
-                <hr class="w-100 border-2 border-primary opacity-100">
-                <h3>Web Application</h3>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-
-                    <div class="col shadow-lg">
-                        <div class="card h-100">
-                            <img src="projects/WaterManagementSystem.jpeg" class="card-img-top" alt="...">
-                            <div class="card-footer text-center">
-                                <h5>Water Management System</h5>
-                            </div>
+                <div class="col">
+                    <div class="card h-100 shadow-lg">
+                        <img src="projects/imagegallery.jpeg" 
+                             class="card-img-top w-100 object-fit-cover" 
+                             style="height:200px;" alt="...">
+                        <div class="card-footer text-center">
+                            <h5>Image Gallery</h5>
                         </div>
                     </div>
-
-                    <div class="col shadow-lg">
-                        <div class="card h-100">
-                            <img src="projects/WaterManagementSystem.jpeg" class="card-img-top" alt="...">
-                            <div class="card-footer text-center">
-                                <h5>Water Management System</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col shadow-lg">
-                        <div class="card h-100">
-                            <img src="projects/WaterManagementSystem.jpeg" class="card-img-top" alt="...">
-                            <div class="card-footer text-center">
-                                <h5>Water Management System</h5>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
+                <div class="col">
+                    <div class="card h-100 shadow-lg">
+                        <img src="projects/LibraryManagementSystem.jpeg" 
+                             class="card-img-top w-100 object-fit-cover" 
+                             style="height:200px;" alt="...">
+                        <div class="card-footer text-center">
+                            <h5>Library Management System</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="w-100 border-2 border-primary opacity-100">
+            <h3>Desktop Application</h3>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+
+                <div class="col">
+                    <div class="card h-100 shadow-lg">
+                        <img src="projects/WaterManagementSystem.jpeg" 
+                             class="card-img-top w-100 object-fit-cover" 
+                             style="height:200px;" alt="...">
+                        <div class="card-footer text-center">
+                            <h5>Water Management System</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-lg">
+                        <img src="projects/Hospitalsystem.jpeg" 
+                             class="card-img-top w-100 object-fit-cover" 
+                             style="height:200px;" alt="...">
+                        <div class="card-footer text-center">
+                            <h5>Hospital Management System</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-lg">
+                        <img src="projects/Plotbuy&sale.jpeg" 
+                             class="card-img-top w-100 object-fit-cover" 
+                             style="height:200px;" alt="...">
+                        <div class="card-footer text-center">
+                            <h5>Land Sale & Buy System</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-lg">
+                        <img src="projects/Systemproject.jpeg" 
+                             class="card-img-top w-100 object-fit-cover" 
+                             style="height:200px;" alt="...">
+                        <div class="card-footer text-center">
+                            <h5>System Control</h5> 
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
-
     </div>
+</div>
+
 
 
 
